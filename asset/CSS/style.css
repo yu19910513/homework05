@@ -39,6 +39,8 @@ textarea {
 .hour {
   color: #000000;
   border-top: 1px dashed #000000;
+  display: flex;
+
 }
 
 .past {
@@ -69,13 +71,17 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-h1 {
+h1, #currentDay {
   text-shadow: 3px 3px 5px black;
 }
 
 #currentDay {
-  font-family: monospace;
+  font-family:monospace;
   font-weight: 400;
-  text-decoration: underline;
   font-size: xx-large;
+  display: inline-block;
+}
+
+textarea {
+  position: relative;
 }

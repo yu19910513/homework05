@@ -55,5 +55,6 @@ setInterval(function timeClock() {
 
     };
 
+    weather();
 
 } , 1000);

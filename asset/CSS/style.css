@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -67,4 +67,15 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+h1 {
+  text-shadow: 3px 3px 5px black;
+}
+
+#currentDay {
+  font-family: monospace;
+  font-weight: 400;
+  text-decoration: underline;
+  font-size: xx-large;
 }
